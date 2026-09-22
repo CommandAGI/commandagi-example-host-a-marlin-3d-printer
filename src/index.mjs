@@ -4,7 +4,7 @@
 // go online in the marketplace, and run print jobs that come to it.
 //
 // This is a deliberately small, readable EXAMPLE. A production host would use the
-// first-party runtime (apps/host-node / packages/host-core in the CommandAGI
+// first-party runtime (apps/host-node / packages/runtime/host-core in the CommandAGI
 // monorepo), which also streams a camera and joins each job's realtime WebSocket
 // control plane. Here we keep it to plain `fetch` + a serial driver so the shape
 // of the integration is easy to follow.
@@ -39,7 +39,7 @@ const cfg = {
 };
 
 // The BYO resource class for an FDM printer. Maps from kind "printer" →
-// "byo.printer" in the platform ontology (packages/core/src/ontology.ts).
+// "byo.printer" in the platform ontology (packages/domain/core/src/ontology.ts).
 const RESOURCE_CLASS = "byo.printer";
 
 // ─── a tiny CommandAGI REST client ────────────────────────────────────────────

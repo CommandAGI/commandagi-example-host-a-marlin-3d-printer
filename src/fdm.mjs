@@ -1,6 +1,6 @@
 // fdm.mjs — a self-contained Marlin/FDM gcode driver over a serial port.
 //
-// This mirrors the production host driver (apps/background-service/src/printer.ts in the
+// This mirrors the production host driver (apps/clients/computer-host-daemon/src/printer.ts in the
 // CommandAGI monorepo) but is dependency-light and standalone so it reads as an
 // example. It speaks the classic Marlin host protocol:
 //
