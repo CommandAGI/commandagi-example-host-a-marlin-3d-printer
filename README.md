@@ -1,4 +1,21 @@
-# commandagi-example-printer
+# host-a-marlin-3d-printer
+
+Part of [CommandAGI](https://commandagi.com): connecting agents to real computers, robots and
+physical environments. This repository can be cloned independently of the private platform code.
+
+```sh
+git clone https://github.com/CommandAGI/commandagi-example-host-a-marlin-3d-printer.git
+cd commandagi-example-host-a-marlin-3d-printer
+```
+
+## Compatibility and validation
+
+This is a focused reference example, not a production device runtime. The source and instructions
+are public so integrations can be understood and adapted. Local syntax checks do not verify live
+API compatibility. Some examples retain earlier session/device API contracts; inspect the calls in
+the source against your target environment before running them. No live rental, order, paid compute
+or hardware-motion test was performed as part of the repository rename.
+
 
 Turn an idle 3D printer into camera-monitorable, marketplace-available capacity on
 [**CommandAGI**](https://commandagi.com).
@@ -46,8 +63,8 @@ camera-verifiable unit of work (a print) with a clean start/finish.
 ## Quickstart
 
 ```bash
-git clone https://github.com/CommandAGI/commandagi-example-printer
-cd commandagi-example-printer
+git clone https://github.com/CommandAGI/commandagi-example-host-a-marlin-3d-printer
+cd commandagi-example-host-a-marlin-3d-printer
 npm install
 cp .env.example .env          # then edit .env — paste your cagi_ key + serial port
 # plug the printer in over USB, power it on

@@ -1,5 +1,5 @@
 {
-  "name": "commandagi-example-printer",
+  "name": "commandagi-example-host-a-marlin-3d-printer",
   "version": "0.1.0",
   "description": "Connect a Marlin FDM 3D printer (Creality Ender 3 V3 SE and friends) to CommandAGI as a bring-your-own device.",
   "type": "module",
@@ -8,10 +8,10 @@
   "homepage": "https://commandagi.com/docs/host",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CommandAGI/commandagi-example-printer"
+    "url": "https://github.com/CommandAGI/commandagi-example-host-a-marlin-3d-printer"
   },
   "bugs": {
-    "url": "https://github.com/CommandAGI/commandagi-example-printer/issues"
+    "url": "https://github.com/CommandAGI/commandagi-example-host-a-marlin-3d-printer/issues"
   },
   "keywords": [
     "commandagi",
